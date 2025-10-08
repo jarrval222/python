@@ -1,0 +1,5 @@
+fechanac = input("Introduce tu fecha de nacimiento en formato dd/mm/aaaa: ")
+div = fechanac.split("/")
+print(f"dia: " + div[0])
+print(f"mes: " + div[1])
+print(f"año: " + div[2])
