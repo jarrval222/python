@@ -1,8 +1,8 @@
 contraseña_valida = "hola123"
 contraseña = input("Introduce una contraseña: ")
-for i in range(len(contraseña_valida)):
-    if contraseña[i] != contraseña_valida[i]:
-        print("Contraseña incorrecta")
-        exit(0)
-print("Contraseña correcta")
-
+i = 1
+while contraseña != contraseña_valida and i < 3:
+    contraseña = input("Contraseña incorrecta. Inténtalo de nuevo: ")
+    i = i + 1
+if contraseña == contraseña_valida:
+    print("Contraseña correcta")
