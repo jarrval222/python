@@ -1,5 +1,4 @@
-entero = int(input("Ingresa un número entero: "))   
-for i in range (entero, entero + 1):
+for i in range (1,11):
     print ("La tabla de multiplicar del", i)
-    for j in range (0, 10 + 1):
-        print (i, "x", j, "=", i * j)
+    for j in range (1,11):
+        print(i,"x",j,"=",i*j)
